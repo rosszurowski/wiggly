@@ -1,0 +1,40 @@
+{
+  "name": "wiggly",
+  "version": "0.0.3",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "microbundle": "^0.15.1",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2
+  },
+  "files": [
+    "dist",
+    "media",
+    "src",
+    "readme.md",
+    "license.md"
+  ],
+  "keywords": [
+    "animation",
+    "motion",
+    "react",
+    "spring",
+    "typescript"
+  ],
+  "eslintConfig": {},
+  "author": "Ross Zurowski",
+  "license": "MIT"
+}
